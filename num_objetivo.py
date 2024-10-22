@@ -12,16 +12,16 @@ numeros = [3, 6, 9, 22, 33, 34]
 objetivo = 36
 result = encontrar_num(numeros, objetivo)
 if result:
-    print(f"Indices: {result[0]}, {result[1]}")
+    print(f"los indices son: {result[0]}, {result[1]}")
 else:
     print("No encontramos solucion")
           
 
 # creamos un diccionario vacío num_dict.
 
-# recorremos el array numeros usando enumerate para obtener el índice i como el valor num.
+# recorremos el array numeros usando enumerate para obtener el índice i como el valor numero.
 
-# se calcula el num_arr como objetivo - num.
+# se calcula el num_arr como objetivo - numero.
 
 # verifica si el num_arr está en num_dict.
 
